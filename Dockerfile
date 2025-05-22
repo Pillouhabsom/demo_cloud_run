@@ -10,7 +10,7 @@ RUN pip install -r requirements.txt
 
 COPY app.py .
 
-EXPOSE 8080
+EXPOSE 5000
 
 # Commande pour lancer l'application
 CMD ["python", "app.py"]
